@@ -1,0 +1,42 @@
+@import "variables.scss";
+@import "footer.scss";
+
+/*mapget*/
+.barraSeccionMujer{
+    background-color: map-get($barraSeccionMujer , color );
+    opacity: map-get($barraSeccionMujer , opacidad );
+    margin-top: map-get($barraSeccionMujer , margensuperior )
+}
+
+.btn-primary{
+    background-color: $colorBtnCompra
+}
+
+.card{
+    background-color: $colorBgCardMujer
+}
+
+/* extend */
+.barraQuienesSomos{
+    @extend .barraSeccionMujer;
+    background-color: $colorPrimario;
+}
+
+
+/*mixin*/
+
+@mixin PropiedadesCasillasInput ($ancho,$padding,$margin){
+    width: $ancho;
+    padding: $padding;
+    margin:$margin;
+}
+
+
+.input-group{
+    @include PropiedadesCasillasInput(300px,0,10px )
+
+}
+.input-group.newsletter{
+    @include PropiedadesCasillasInput(300px,0,10px );
+    background-color: $colorTonalidadLogo
+}

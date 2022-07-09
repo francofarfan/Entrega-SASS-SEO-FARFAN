@@ -1,0 +1,48 @@
+/*map*/
+footer {
+  background-color: rgb(248, 249, 250);
+}
+
+.redesSociales a {
+  text-decoration: none;
+  color: #212529;
+}
+
+@media screen and (max-width: 622px) {
+  .logoEnFooter {
+    display: none;
+  }
+}
+/*mapget*/
+.barraSeccionMujer, .barraQuienesSomos {
+  background-color: rgba(255, 0, 212, 0.1098039216);
+  opacity: 60%;
+  margin-top: 20px;
+}
+
+.btn-primary {
+  background-color: rgba(13, 109, 253, 0.7450980392);
+}
+
+.card {
+  background-color: rgba(255, 0, 212, 0.1098039216);
+}
+
+/* extend */
+.barraQuienesSomos {
+  background-color: rgb(248, 249, 250);
+}
+
+/*mixin*/
+.input-group {
+  width: 300px;
+  padding: 0;
+  margin: 10px;
+}
+
+.input-group.newsletter {
+  width: 300px;
+  padding: 0;
+  margin: 10px;
+  background-color: #34bba4;
+}/*# sourceMappingURL=style.css.map */

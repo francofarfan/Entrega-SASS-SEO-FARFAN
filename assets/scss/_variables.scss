@@ -1,0 +1,12 @@
+$colorPrimario : rgb(248, 249, 250);
+$colorBgCardMujer : rgba(255, 0, 212, 0.1098039216) ;
+$colorBtnCompra : #0d6dfdbe;
+$colortxtFooter : #212529;
+$colorTonalidadLogo: #34bba4;
+
+/*map*/
+$barraSeccionMujer:(
+    color: $colorBgCardMujer,
+    opacidad: 60%,
+    margensuperior: 20px,
+)
